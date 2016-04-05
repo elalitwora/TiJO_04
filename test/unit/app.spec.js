@@ -36,7 +36,7 @@ describe('app', function () {
         });
     });
     describe('Max array function', function(){
-        it('should return false when array contains not a numer', function () {
+        it('should return false when array contains not a number', function () {
             expect(app.maxArray([1,'asd',3,2,1,1])).toEqual(false);
         });
         it('should return max number contain in array', function () {
@@ -48,7 +48,7 @@ describe('app', function () {
     });
 
     describe('Square Odd function', function(){
-        it('should return false if array contains not a numer', function () {
+        it('should return false if array contains not a number', function () {
             expect(app.squareOdd([1,'asd',3,2,1,1])).toEqual(false);
         });
         it('should return max number contain in array', function () {
